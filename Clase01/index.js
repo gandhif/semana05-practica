@@ -65,7 +65,7 @@ function Calculadora(){
             break;
     
         default:
-            alert("Opcion no valido");
+            alert("Opcion no valido OK");
             break;
     }
 }
