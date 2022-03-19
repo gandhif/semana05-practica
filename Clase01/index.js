@@ -5,6 +5,22 @@ function nNumeros(){
     console.log(num)
 }
 function Promedio(){
+    let num =prompt('cuantas notas ingresara');
+    let temp=0;
+    let sum=0;
+    let pro=0;
+    for (x=0;x<num;x++){
+        temp = prompt("ingrese la Nota "); 
+        sum = sum + parseInt(temp);
+        
+    }
+    pro=sum/num;
+    if(pro>=70){
+        alert("Promedio de Notas="+pro+"  Aprobado");
+    }
+    else{
+        alert("Promedio de Notas="+pro+"  Desaprobado");
+    }
 }
 
 function init(){
