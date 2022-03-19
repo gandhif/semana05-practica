@@ -49,7 +49,7 @@ function Calculadora(){
             break;
     
         default:
-            alert("Opcion no valido");
+            alert("OPCION INVALIDAD");
             break;
     }
 }
